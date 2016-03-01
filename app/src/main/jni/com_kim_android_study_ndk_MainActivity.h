@@ -67,6 +67,14 @@ extern "C" {
 #define com_kim_android_study_ndk_MainActivity_MSG_RESUME_PENDING 2L
 /*
  * Class:     com_kim_android_study_ndk_MainActivity
+ * Method:    updateFile
+ * Signature: (Ljava/lang/String;)V
+ */
+JNIEXPORT void JNICALL Java_com_kim_android_1study_1ndk_MainActivity_updateFile
+  (JNIEnv *, jclass, jstring);
+
+/*
+ * Class:     com_kim_android_study_ndk_MainActivity
  * Method:    getStringFromJNI
  * Signature: ()Ljava/lang/String;
  */
